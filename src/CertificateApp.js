@@ -109,7 +109,7 @@ const CertificateApp = (function() {
        */
       this.sendEmail = function(params) {
         if(!_certificateID) return;
-        const subject = 'Certificado de Participação no Treinamento Xertica';
+        const subject = 'Certificado de Participação no Treinamento';
         const htmlBody = `<div dir="ltr">Oi ${_name}!<br><br>Agradecemos muito a sua participação no nosso treinamento.<br><br>Esperamos que tenha gostado dele!<br><br>Aqui está o seu certificado de participação.</div>\r\n`;
         
         MailApp.sendEmail({
